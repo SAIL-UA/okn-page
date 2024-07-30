@@ -1,6 +1,24 @@
 # _config.yml
-title: My Project
+title: Open Knowledge Graph
 description: This is the documentation site for my project.
 baseurl: "/your-repository-name" # for project sites, not needed for user sites
 url: "https://your-username.github.io"
 remote_theme: rundocs/jekyll-rtd-theme
+
+# Navigation structure
+nav:
+  - title: "Home"
+    url: "/"
+    nav_order: 1
+  - title: "PDF Parsing"
+    url: "/docs/pdf-parsing"
+    nav_order: 2
+  - title: "Ontology Construction"
+    url: "/docs/ontology-construction"
+    nav_order: 3
+  - title: "Knowledge Graph Database"
+    url: "/docs/knowledge-graph-database"
+    nav_order: 4
+  - title: "User Interface"
+    url: "/docs/user-interface"
+    nav_order: 5
