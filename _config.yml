@@ -9,14 +9,14 @@ nav:
     url: "/"
     nav_order: 1
   - title: "PDF Parsing"
-    url: "/docs/pdf-parsing"
+    url: "tree/main/docs/pdf-parsing"
     nav_order: 2
   - title: "Ontology Construction"
-    url: "/docs/ontology-construction"
+    url: "tree/main/docs/ontology-construction"
     nav_order: 3
   - title: "Knowledge Graph Database"
-    url: "/docs/knowledge-graph-database"
+    url: "tree/main/docs/knowledge-graph-database"
     nav_order: 4
   - title: "User Interface"
-    url: "/docs/user-interface"
+    url: "tree/main/docs/user-interface"
     nav_order: 5
