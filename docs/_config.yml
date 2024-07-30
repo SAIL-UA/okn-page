@@ -1,5 +1,5 @@
 title: My Project
 description: This is the documentation site for my project.
-url: "https://sail-ua.github.io"
+repo_url: "https://sail-ua.github.io"
 remote_theme: carlosperate/jekyll-theme-rtd
 
