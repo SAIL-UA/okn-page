@@ -1,10 +1,10 @@
 title: My Project
 description: This is the documentation site for my project.
-baseurl: "/your-repository-name" # for project sites, not needed for user sites
+baseurl: "/your-repository-name" # For project sites, not needed for user sites
 url: "https://your-username.github.io"
 remote_theme: rundocs/jekyll-rtd-theme
 
-# Navigation structure
+# Sidebar navigation structure
 nav:
   - title: "Home"
     url: "/"
