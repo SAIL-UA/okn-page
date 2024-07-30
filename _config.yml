@@ -3,4 +3,4 @@ title: My Project
 description: This is the documentation site for my project.
 baseurl: "/your-repository-name" # for project sites, not needed for user sites
 url: "https://your-username.github.io"
-theme: minima
+remote_theme: rundocs/jekyll-rtd-theme
