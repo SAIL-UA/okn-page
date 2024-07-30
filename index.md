@@ -1,14 +1,10 @@
 ---
-layout: home
-title: "Home"
-permalink: /
+layout: default
+title: "Getting Started"
 nav_order: 1
+permalink: /
 ---
 
-# Welcome to My Project
+# Getting Started
 
-This is the home page of my project documentation site.
-
-## Getting Started
-
-[Getting Started](docs/getting-started.md)
+This page will guide you through the basics of getting started with the project.
