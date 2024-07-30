@@ -3,20 +3,5 @@ description: This is the documentation site for my project.
 url: "https://sail-ua.github.io"
 remote_theme: carlosperate/jekyll-theme-rtd
 
-# Sidebar navigation structure
-nav:
-  - title: "Home"
-    url: "/"
-    nav_order: 1
-  - title: "PDF Parsing"
-    url: "/docs/pdf-parsing"
-    nav_order: 2
-  - title: "Ontology Construction"
-    url: "/docs/ontology-construction"
-    nav_order: 3
-  - title: "Knowledge Graph Database"
-    url: "/docs/knowledge-graph-database"
-    nav_order: 4
-  - title: "User Interface"
-    url: "/docs/user-interface"
-    nav_order: 5
+github_docs_folder: true
+sticky_navigation: true
