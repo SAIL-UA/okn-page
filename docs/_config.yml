@@ -4,4 +4,3 @@ url: "https://sail-ua.github.io"
 remote_theme: carlosperate/jekyll-theme-rtd
 
 github_docs_folder: true
-sticky_navigation: true
