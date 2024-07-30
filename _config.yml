@@ -1,7 +1,7 @@
 title: My Project
 description: This is the documentation site for my project.
 url: "https://sail-ua.github.io"
-remote_theme: carlosperate/jekyll-theme-rtd
+remote_theme: rundocs/jekyll-rtd-theme
 
 # Sidebar navigation structure
 nav:
@@ -9,14 +9,14 @@ nav:
     url: "/"
     nav_order: 1
   - title: "PDF Parsing"
-    url: "/docs/pdf-parsing"
+    url: "/pdf-parsing"
     nav_order: 2
   - title: "Ontology Construction"
-    url: "/docs/ontology-construction"
+    url: "/ontology-construction"
     nav_order: 3
   - title: "Knowledge Graph Database"
-    url: "/docs/knowledge-graph-database"
+    url: "/knowledge-graph-database"
     nav_order: 4
   - title: "User Interface"
-    url: "/docs/user-interface"
+    url: "/user-interface"
     nav_order: 5
