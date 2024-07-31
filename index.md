@@ -1,12 +1,11 @@
 ---
 layout: default
-title: "Project Home"
+title: "OKN-UA Project"
 nav_order: 1
 permalink: /
 ---
 
-# My Project
-
+# Introduction 
 Welcome to the documentation site for my project. This site will provide you with all the necessary information to understand and use the project.
 
 ## Features
