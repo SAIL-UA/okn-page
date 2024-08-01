@@ -23,7 +23,7 @@ studies of rural resilience to public health and environmental crises.
 
 ## Project Overview
 
-![Overview diagram](media/overview.png)
+![Project overview diagram](media/overview.png)
 
 ### Status:
 
