@@ -6,21 +6,26 @@ permalink: /
 ---
 
 # Introduction 
-Welcome to the documentation site for my project. This site will provide you with all the necessary information to understand and use the project.
+Enhancing the resilience of our nation’s rural communities to existing and upcoming crises is of
+pressing importance, as these areas are vital for preserving essential resources such as air quality,
+water supplies, food production, and supply chains - a realization underscored by the CoVID19 pandemic. Following our preliminary work, we have pinpointed collaborators and mapped
+out the capabilities required for rural resilience, particularly in the context of public health and
+environmental crises. Central to these requirements of resources and community collaborations is
+the ability to collect and analyze data related to health outcomes and climate changes, along with
+social determinants of health and justice within rural locales.
+Therefore, we have put together a specialized team that’s dedicated to overcoming difficulties
+in data gathering and analysis. The method involves the construction of an extensive, interdisciplinary knowledge graph. This graph is designed to merge, portray, and interconnect previously
+separate health and justice data sets. It’s a powerful resource designed to aid researchers, practitioners, and educators in improving their understanding of risk environments in rural locations and
+strengthening their resilience. The project’s goal is to make use of existing geo-enrichment services
+and initiatives like the NSF-funded KnowWhereGraph. The team is devoted to synchronizing our
+efforts with these programs, as well as other Proto-OKN themes, in order to enhance our scientific
+studies of rural resilience to public health and environmental crises.
 
-## Features
+## Project Overview
 
-- Feature 1
-- Feature 2
-- Feature 3
+![Overview diagram](media/overview.png)
 
-## Installation
+### Status:
 
-Follow these steps to install the project:
-1. Step one
-2. Step two
-3. Step three
+We finished the PDF parsing module documentation, and currently still working on the documentation for the rest of the sections.
 
-## Usage
-
-Here's how you can use the project:
