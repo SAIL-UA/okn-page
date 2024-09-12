@@ -82,5 +82,9 @@ Implementing graph database functionality within a relational database is not di
 
 ## Tools
 
-Some tools for knowledge graph databases include...
+Here are the tools used in the Knowledge Graph Database design and construction tasks:
+
+- PostgreSQL
+- pgAdmin 4
+
 
