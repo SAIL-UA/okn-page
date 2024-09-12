@@ -18,6 +18,30 @@ In this project, all Knowledge Graph components are maintained within a PostgreS
 
 3. **Community support and alignment with other teams**: PostgreSQL boasts a strong and active community, and its use is widespread among other OKN teams. By adopting PostgreSQL for our Knowledge Graph, we simplify future collaboration and data alignment with other teams working on related projects.
 
+## Targeted Dataset
+
+As an example, consider the NSDUH (National Survey on Drug Use and Health) dataset, available at the official [NSDUH website](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health). Conducted annually by the Substance Abuse and Mental Health Services Administration (SAMHSA), this survey provides nationally representative data on various topics including the use of tobacco, alcohol, and drugs; substance use disorders; mental health issues; and the receipt of substance use and mental health treatment. The survey covers the civilian, noninstitutionalized population aged 12 or older in the United States.
+
+The NSDUH dataset offers two main resources:
+
+- **The Dataset**: This consists of the formatted survey results, where each row corresponds to a single, anonymous respondent's survey, and each column represents a question in the survey, encoded as a variable code.
+
+- **The Codebook**: This resource provides detailed explanations for each variable code, along with statistical summaries of the responses. The preface of the codebook also introduces foundational information about the survey, including statistical methods, relevant regulations, and policies related to security and privacy.
+
+
+## Ontology and Knowledge Graph Generating
+
+
+
+
+## Database Design
+
+The database design follows the KG paradigm that entities and relationships are mantained in specific tables. 
+
+Take the NSDUH dataset for example, the main topics of this dataset are substance abuse and mental health. 
+
+After constructing the Ontology based on the NSDUH codebook, the incident types about the substance abuse are extracted and 
+
 ## Tools
 
 Some tools for knowledge graph databases include...
