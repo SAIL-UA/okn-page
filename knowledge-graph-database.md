@@ -20,13 +20,16 @@ In this project, all Knowledge Graph components are maintained within a PostgreS
 
 ## Targeted Dataset
 
+Two types of datasets are central to our project: **survey** and **report** datasets. Both are published by reputable agencies or organizations. Currently, we have processed datasets like NSDUH (focused on substance abuse) and NIBRS (focused on justice), with plans to incorporate additional datasets as the project evolves.
+
 As an example, consider the NSDUH (National Survey on Drug Use and Health) dataset, available at the official [NSDUH website](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health). Conducted annually by the Substance Abuse and Mental Health Services Administration (SAMHSA), this survey provides nationally representative data on various topics including the use of tobacco, alcohol, and drugs; substance use disorders; mental health issues; and the receipt of substance use and mental health treatment. The survey covers the civilian, noninstitutionalized population aged 12 or older in the United States.
 
 The NSDUH dataset offers two main resources:
 
-- **The Dataset**: This consists of the formatted survey results, where each row corresponds to a single, anonymous respondent's survey, and each column represents a question in the survey, encoded as a variable code.
+1. **The Dataset**: This consists of the formatted survey results, where each row corresponds to a single, anonymous respondent's survey, and each column represents a question in the survey, encoded as a variable code.
 
-- **The Codebook**: This resource provides detailed explanations for each variable code, along with statistical summaries of the responses. The preface of the codebook also introduces foundational information about the survey, including statistical methods, relevant regulations, and policies related to security and privacy.
+2. **The Codebook**: This resource provides detailed explanations for each variable code, along with statistical summaries of the responses. The preface of the codebook also introduces foundational information about the survey, including statistical methods, relevant regulations, and policies related to security and privacy.
+
 
 
 ## Ontology and Knowledge Graph Generating
