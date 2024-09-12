@@ -67,6 +67,17 @@ The design for the NSDUH database is illustrated below:
 
 You can find the raw PostgreSQL ERD design file at [NSDUH ERD V0.1](https://github.com/SAIL-UA/OKN/blob/main/database/ERD/database_v0_1.pgerd).
 
+> **Note:**  
+> In the current PostgreSQL database, we store embedding vectors for Retrieval-Augmented Generation (RAG) purposes. This is a temporary solution, and we are in the process of gradually migrating these vectors into the Milvus vector store.
+
+
+## Graph Database
+
+There are several excellent graph databases available, such as Neo4j. While we plan to integrate Neo4j into our future Retrieval-Augmented Generation (RAG) process, it is not part of the current implementation. 
+
+The main reason for not using a graph database at this stage is that graph databases offer a high-level abstraction of the raw datasets and typically represent a more finalized state of the data. They lack the flexibility to evolve alongside the ongoing development process of the project, which is crucial at this phase.
+
+Implementing graph database functionality within a relational database is not difficult. This can be achieved by adding an overlay table that records the type of each table—whether it represents an entity or a relationship. For example, as mentioned earlier, the **"substance"** table functions as an entity table, while the **"substance_incident_type"** table serves as a relationship table.
 
 
 ## Tools
