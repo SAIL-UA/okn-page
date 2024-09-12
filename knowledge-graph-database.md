@@ -30,20 +30,44 @@ The NSDUH dataset offers two main resources:
 
 2. **The Codebook**: This resource provides detailed explanations for each variable code, along with statistical summaries of the responses. The preface of the codebook also introduces foundational information about the survey, including statistical methods, relevant regulations, and policies related to security and privacy.
 
+## Ontology and Knowledge Graph Generation
 
+The codebook and dataset serve distinct purposes in the pipeline. The codebook provides the knowledge necessary for constructing the ontology, while the dataset supplies the data for populating the knowledge graph.
 
-## Ontology and Knowledge Graph Generating
+For example, consider the following variable (question) from the NSDUH Codebook 2022:
 
+*"In the past 12 months, were you arrested and booked for driving under the influence of alcohol or drugs?"*
 
+The entities extracted from this question might include:
+- Respondent
+- Alcohol
+- Drug
+- ArrestAndBooking
+- SurveyPeriod
+- DUI (Drive Under Influence)
 
+The relationships between these entities may be represented as:
+- (Respondent, DUI, Alcohol)
+- (Respondent, ArrestAndBooking, Alcohol)
+- (ArrestAndBooking, isRelatedTo, DUI)
+- (DUI, involves, Alcohol)
+- (DUI, involves, Drugs)
+- (ArrestAndBooking, hasSurveyPeriod, SurveyPeriod)
+
+These entity-relationship triples, along with their definitions, form the ontology. Guided by the ontology, relevant responses from the dataset are extracted to determine if a respondent engaged in certain behaviors. These responses form the triples in the populated knowledge graph.
 
 ## Database Design
 
-The database design follows the KG paradigm that entities and relationships are mantained in specific tables. 
+The database design follows the Knowledge Graph (KG) paradigm, where entities and relationships are stored in dedicated tables. For example, substances mentioned in the codebook are stored in the **"substance"** table, and substance-related incident types are stored in the **"substance_incident_type"** table. Both of these tables are part of the ontology structure.
 
-Take the NSDUH dataset for example, the main topics of this dataset are substance abuse and mental health. 
+After retrieving relevant answers from the dataset, incidents involving anonymous respondents are inserted into the **"substance_incident_case"** table, which serves as the knowledge graph table, capturing real-world instances of the ontology.
 
-After constructing the Ontology based on the NSDUH codebook, the incident types about the substance abuse are extracted and 
+The design for the NSDUH database is illustrated below:
+![Overview NSDUH Database Design](media/database_v0_1.pgerd.png)
+
+You can find the raw PostgreSQL ERD design file at [NSDUH ERD V0.1](https://github.com/SAIL-UA/OKN/blob/main/database/ERD/database_v0_1.pgerd).
+
+
 
 ## Tools
 
