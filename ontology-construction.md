@@ -115,3 +115,30 @@ This script removes any duplicate entities from the CSV file generated in the pr
 ```bash
 python Entity_duplicate_drop.py --input_file entity_rel.csv --output_file unique_entity_rel.csv
 ```
+
+## Ontology TTL Generation from Extracted Entities and Relationships
+
+### [generate_ontology_ttl.py](https://github.com/your-repo/generate_ontology_ttl.py)
+
+This script generates an ontology in TTL format based on the extracted entities and relationships from the NSDUH 2022 codebook. It uses the class structure provided in `category.json` and the relationships in a CSV file to create RDF triples and serialize them into a TTL file for ontology construction.
+
+### Input:
+- **category.json**: A JSON file containing the class structure extracted from the NSDUH 2022 codebook.
+- **relation.csv**: A CSV file containing the relationships between entities.
+
+### Output:
+- **entity_as_instance_with_relation.ttl**: A TTL file representing the ontology with entities and their relationships.
+
+### Installation
+
+To install the necessary dependencies, run the following command:
+
+```bash
+pip install pandas rdflib
+```
+
+### Run script
+
+```bash
+python generate_ontology_ttl.py --category_file /path/to/category.json --relation_csv /path/to/relation.csv --output_file /path/to/output.ttl
+```
