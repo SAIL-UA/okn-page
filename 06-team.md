@@ -34,7 +34,7 @@ Throughout my career, I have been recognized with several prestigious awards, in
 #### Website
 [Visit Dr. Lee's Website](https://socialwork.ua.edu/blog/lee-hee-yun/)
 
-### Co-PI: Dr. Dapeng Li
+### Senior Personnel: Dr. Dapeng Li
 
 ![Dapeng Li](media/dapeng1.jpg){: style="width:200px; height:200px;" }
 
@@ -82,17 +82,6 @@ Shenglin (Shane) Li received the PhD degree in Mechanical Engineering at The Uni
 #### Website
 [Visit Shenglin's Website](www.linkedin.com/in/shenglin-li)
 
-
-### Student: Chen Wang
-
-![Chen Wang](media/chen.jpg){: style="width:200px; height:200px;" }
-
-#### Bio
-Chen Wang earned her B.S. degree in Computer Science from the University of Jinan in 2017 and completed her Ph.D. in Computer Science at The University of Alabama in 2023. Currently a Postdoctoral Researcher at UA, her work focuses on interdisciplinary research, particularly enhancing the sensitivity of AI technologies to social and ethical issues in areas such as smart healthcare, education, and engineering.
-
-#### Website
-[Visit Chen's Website](https://www.linkedin.com/in/cwang86/)
-
 ### Student: Andres Ramirez Molina
 
 ![Andres Ramirez Molina](media/andres.png){: style="width:200px; height:200px;" }
@@ -103,3 +92,15 @@ Andrés Ramírez Molina is a PhD student in the Department of Computer Science a
 #### Website
 [Visit Andres's Website](https://aaramirez.myportfolio.com)
 
+
+## Postdoctoral Members
+
+### Post-doc: Chen Wang
+
+![Chen Wang](media/chen.jpg){: style="width:200px; height:200px;" }
+
+#### Bio
+Chen Wang earned her B.S. degree in Computer Science from the University of Jinan in 2017 and completed her Ph.D. in Computer Science at The University of Alabama in 2023. Currently a Postdoctoral Researcher at UA, her work focuses on interdisciplinary research, particularly enhancing the sensitivity of AI technologies to social and ethical issues in areas such as smart healthcare, education, and engineering.
+
+#### Website
+[Visit Chen's Website](https://www.linkedin.com/in/cwang86/)
