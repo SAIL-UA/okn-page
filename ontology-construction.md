@@ -100,7 +100,7 @@ python Entity_Rel_JSON_toCSV.py --input_file clean_entity_rel.json --output_file
 
 ### 4. Remove Duplicate Entities
 
-##### [Entity_duplicate_drop.py](https://github.com/your-repo/Entity_duplicate_drop.py)
+#### [Entity_duplicate_drop.py](https://github.com/your-repo/Entity_duplicate_drop.py)
 
 #### Purpose:
 This script removes any duplicate entities from the CSV file generated in the previous step to ensure that each entity appears only once in the dataset.
