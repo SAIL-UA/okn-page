@@ -8,6 +8,14 @@ nav_order: 4
 
 This section covers how to work with knowledge graph databases.
 
+## Prerequisites
+
+Here are the tools used in the Knowledge Graph Database design and construction tasks:
+
+- **PostgreSQL**: A relational database used for storing the knowledge graph. Please refer to the official documentation for installation and usage: [PostgreSQL Official Documentation](https://www.postgresql.org/download/)
+- **pgAdmin 4**: A desktop administration tool for managing PostgreSQL databases. It provides an intuitive interface for performing database tasks such as querying, schema management, and database maintenance. The built-in ERD (Entity-Relationship Diagram) tool is used for visualizing and designing the database schema.
+
+
 ## Introduction
 
 In this project, all Knowledge Graph components are maintained within a PostgreSQL database. There are three key considerations that led to the decision to adopt PostgreSQL for managing the Knowledge Graph:
@@ -70,6 +78,12 @@ You can find the raw PostgreSQL ERD design file at [NSDUH ERD V0.1](https://gith
 > **Note:**  
 > In the current PostgreSQL database, we store embedding vectors for Retrieval-Augmented Generation (RAG) purposes. This is a temporary solution, and we are in the process of gradually migrating these vectors into the Milvus vector store.
 
+## RDF Generation
+
+With the Knowledge Graph maintained in PostgreSQL, it can be exported to various RDF formats, such as TTL (Turtle). The script for exporting the ontology can be found here: [TTL Export Script](https://github.com/SAIL-UA/OKN/blob/main/ontology/TTL/rucc_city_tp_levels_annotation.py).
+
+The export process follows a waterfall pattern, where the entity tables are exported first, followed by the relationship tables, ensuring a systematic export of the Knowledge Graph.
+
 
 ## Graph Database
 
@@ -80,11 +94,7 @@ The main reason for not using a graph database at this stage is that graph datab
 Implementing graph database functionality within a relational database is not difficult. This can be achieved by adding an overlay table that records the type of each table—whether it represents an entity or a relationship. For example, as mentioned earlier, the **"substance"** table functions as an entity table, while the **"substance_incident_type"** table serves as a relationship table.
 
 
-## Tools
 
-Here are the tools used in the Knowledge Graph Database design and construction tasks:
 
-- PostgreSQL
-- pgAdmin 4
 
 
