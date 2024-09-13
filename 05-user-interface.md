@@ -10,7 +10,7 @@ The app interface has three main components: a real-time map, a chatbot interfac
 
 ## Tools
 
-We used Dash Plotly to construct the web app. The source code can be found at [GitHub link](https://github.com/scao7/OKN-APP/).
+We used Dash Plotly to construct the web app. The source code can be found at [Shengting Cao repo](https://github.com/scao7/OKN-APP/).
 
 ### Setting Up the Environment
 
