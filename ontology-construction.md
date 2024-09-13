@@ -114,3 +114,4 @@ This script removes any duplicate entities from the CSV file generated in the pr
 #### Example Command:
 ```bash
 python Entity_duplicate_drop.py --input_file entity_rel.csv --output_file unique_entity_rel.csv
+```
