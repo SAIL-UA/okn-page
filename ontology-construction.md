@@ -118,7 +118,7 @@ python Entity_duplicate_drop.py --input_file entity_rel.csv --output_file unique
 
 ## Ontology TTL Generation from Extracted Entities and Relationships
 
-### [generate_ontology_ttl.py](https://github.com/your-repo/generate_ontology_ttl.py)
+### [generate_ontology_ttl.py](https://github.com/SAIL-UA/OKN/blob/main/ontology/generate_ontology_ttl.py)
 
 This script generates an ontology in TTL format based on the extracted entities and relationships from the NSDUH 2022 codebook. It uses the class structure provided in `category.json` and the relationships in a CSV file to create RDF triples and serialize them into a TTL file for ontology construction.
 
