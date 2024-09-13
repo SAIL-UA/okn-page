@@ -48,7 +48,7 @@ Dr. Dapeng Li is an Assistant Professor in the Department of Geography and the E
 
 ### Student: Shenglin Li
 
-![Shenglin Li](media/Shenglin.png)
+![Shenglin Li](media/Shenglin.png){: style="width:300px; height:300px;" }
 
 #### Bio
 Shenglin (Shane) Li received the PhD degree in Mechanical Engineering at The University of Alabama. His research focuses on advanced applications of AI, including multi-camera vehicle tracking, sensor fusion, and computer vision on NVIDIA hardware. He has extensive experience with machine learning algorithms such as YOLO and DEEPSORT, and his work has resulted in significant improvements in vehicle localization and tracking. Currently, he is working as a post-doctoral researcher at the SAIL Lab, where he is modeling data storytelling as a combinatorial search problem to enhance scientific creativity.
@@ -59,7 +59,7 @@ Shenglin (Shane) Li received the PhD degree in Mechanical Engineering at The Uni
 
 ### Student: Chen Wang
 
-![Chen Wang](media/chen.jpg)
+![Chen Wang](media/chen.jpg){: style="width:300px; height:300px;" }
 
 #### Bio
 Chen Wang earned her B.S. degree in Computer Science from the University of Jinan in 2017 and completed her Ph.D. in Computer Science at The University of Alabama in 2023. Currently a Postdoctoral Researcher at UA, her work focuses on interdisciplinary research, particularly enhancing the sensitivity of AI technologies to social and ethical issues in areas such as smart healthcare, education, and engineering.
@@ -69,7 +69,7 @@ Chen Wang earned her B.S. degree in Computer Science from the University of Jina
 
 ### Student: Andres Ramirez Molina
 
-![Andres Ramirez Molina](media/andres.png)
+![Andres Ramirez Molina](media/andres.png){: style="width:300px; height:300px;" }
 
 #### Bio
 Andrés Ramírez Molina is a PhD student in the Department of Computer Science at The University of Alabama. He specializes in integrating Data Science, Machine Learning, and Artificial Intelligence with environmental science. Andrés holds a Bachelor’s in Electrical Engineering and a Master’s in Political Science, bringing over 18 years of diverse experience across various continents and industries. His unique skillset has led him to roles where technology intersects with public administration and innovation to address complex social issues. Currently, Andrés’ research focuses on exploring synergies between large language models (LLMs) and hydrological science to improve the identification of research-to-operation gaps and enhance decision-making in water resource management. He also utilizes deep neural networks to create synthetic streamflow data for unmonitored river segments, aiming to enhance flood risk management and water resource allocation in regions lacking physical gauge networks. Additionally, he employs advanced machine learning techniques to reconstruct past climatological patterns using tree-ring data. The principal objective of his research is to enhance our understanding of historical climate dynamics and their influence on regional hydrology, thereby facilitating improved forecasting and strategic resource management to effectively address climatic variations and their consequences on water availability and ecosystem well-being.
