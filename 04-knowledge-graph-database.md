@@ -10,10 +10,18 @@ This section covers how to work with knowledge graph databases.
 
 ## Prerequisites
 
-Here are the tools used in the Knowledge Graph Database design and construction tasks:
+The following tools are essential for the design and construction of the Knowledge Graph Database:
 
-- **PostgreSQL**: A relational database used for storing the knowledge graph. Please refer to the official documentation for installation and usage: [PostgreSQL Official Documentation](https://www.postgresql.org/download/)
-- **pgAdmin 4**: A desktop administration tool for managing PostgreSQL databases. It provides an intuitive interface for performing database tasks such as querying, schema management, and database maintenance. The built-in ERD (Entity-Relationship Diagram) tool is used for visualizing and designing the database schema.
+- **PostgreSQL**: A relational database system used for storing the knowledge graph. For installation and usage instructions, please refer to the official documentation: [PostgreSQL Official Documentation](https://www.postgresql.org/download/).
+  
+- **pgAdmin 4**: A desktop administration tool for managing PostgreSQL databases. It offers an intuitive interface for tasks such as querying, schema management, and database maintenance. The built-in ERD (Entity-Relationship Diagram) tool is utilized for visualizing and designing the database schema.
+
+Detailed database design can be accessed here: [NSDUH ERD V0.1](https://github.com/SAIL-UA/OKN/blob/main/database/ERD/database_v0_1.pgerd) (open with the pgAdmin 4 ERD tool).
+
+The SQL statements for creating the tables are available here: [NSDUH SQL Statements for Table Creation](https://github.com/SAIL-UA/OKN/blob/main/database/ERD/okn_nsduh.sql).
+
+> **Note:**  
+> We are continuously introducing new datasets, and the database table design is evolving as well. The current version may not reflect the latest updates, but we will ensure continuous improvements and updates over time.
 
 
 ## Introduction
