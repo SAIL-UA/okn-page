@@ -20,3 +20,6 @@ nav:
   - title: "User Interface"
     url: "/user-interface"
     nav_order: 5
+  - title: "Meet Our Team"
+    url: "/team"
+    nav_order: 6
