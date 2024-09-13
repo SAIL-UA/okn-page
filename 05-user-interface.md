@@ -147,4 +147,3 @@ For Google API, use the [Google Geocoding API](https://developers.google.com/map
 
 ---
 
-This structure refines the language and makes the document more concise and professional while maintaining all necessary details.
