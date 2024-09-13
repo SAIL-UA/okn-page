@@ -6,13 +6,13 @@ nav_order: 6
 
 # Meet Our Team
 
-Meet the members of our team working on the Rural Resilience Open Knowledge Graph project, including the principal investigator and student contributors.
+Meet the members of our team working on the Rural Resilience Open Knowledge Graph project, including the principal investigator, co-principal investigators and student contributors.
 
 ## Project Principal Investigators (PIs) and Co-PIs
 
 ### PI: Dr. Jiaqi Gong
 
-![Jiaqi Gong](media/jiaqi.jpg)
+![Jiaqi Gong](media/jiaqi.jpg){: style="width:300px; height:300px;" }
 
 #### Bio
 Dr. Jiaqi Gong is ...
@@ -22,7 +22,7 @@ Dr. Jiaqi Gong is ...
 
 ### Co-PI: Dr. Hee Yun Lee
 
-![Hee Yun Lee](media/Lee.JPG)
+![Hee Yun Lee](media/Lee.JPG){: style="width:300px; height:300px;" }
 
 #### Bio
 I am a Distinguished University Research Professor and tenured full professor at The University of Alabama School of Social Work, where I hold the Endowed Academic Chair in Social Work (Health) and serve as Co-Director of the Alabama Center for the Advancement of Artificial Intelligence. My research focuses on reducing health disparities in underserved and rural communities, driven by a commitment to translating evidence into actionable practice and policy to improve health outcomes and well-being. With a background as a behavioral health scientist and interventionist, I leverage technologies such as AI, Virtual Reality, Web Apps, and Sensors to promote health behavior change, and have developed eight technology-driven interventions that have been adopted in clinical practice and health insurance settings.
