@@ -1,7 +1,7 @@
 title: Open Knowledge Graph - Rural Ontology
 description: This is the documentation site for my project.
 url: "https://sail-ua.github.io"
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: https://github.com/JV-conseil/jekyll-theme-read-the-docs
 
 # Sidebar navigation structure
 nav:
@@ -20,3 +20,6 @@ nav:
   - title: "User Interface"
     url: "/user-interface"
     nav_order: 5
+  - title: "Meet Our Team"
+    url: "/team"
+    nav_order: 6

@@ -25,7 +25,4 @@ studies of rural resilience to public health and environmental crises.
 
 ![Project overview diagram](media/overview1.png)
 
-### Status:
-
-We finished the PDF parsing module documentation, and currently still working on the documentation for the rest of the sections.
 
