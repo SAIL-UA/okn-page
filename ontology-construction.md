@@ -12,7 +12,7 @@ This project’s aim is to process the **NSDUH 2022 data and codebook** to extra
 
 ### Class Structure Parsing from PDF into JSON
 
-#### [updated_parse_en_clusters.py](https://github.com/SAIL-UA/OKN/blob/main/dataset/pdf-table-parser-main/updated_parse_en_clusters.py)
+#### [code_book_class_structure_extraction.py](https://github.com/SAIL-UA/OKN/blob/main/ontology/code_book_class_structure_extraction.py)
 
 This script processes the NSDUH-2022-DS0001-info-codebook.pdf file to extract the class and variable mappings defined by domain experts. It reads specific pages from the PDF, processes the text to extract relevant class structures, and generates a JSON file (`category.json`) that organizes these structures hierarchically.
 
@@ -20,10 +20,15 @@ The JSON output is used for ontology construction tasks, particularly for entity
 
 ### Installation
 
-#### Set up Your Python Environment
-
-Ensure you have Python installed on your system. It is recommended to use a virtual environment to avoid dependency conflicts.
+To install the necessary dependencies, run the following command:
 
 ```bash
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install pymupdf pandas
+```
+
+### Run script
+
+```bash
+python code_book_class_structure_extraction.py --pdf_file /path/to/NSDUH-2022-DS0001-info-codebook.pdf
+
+```
