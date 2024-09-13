@@ -46,6 +46,23 @@ Dr. Dapeng Li is an Assistant Professor in the Department of Geography and the E
 
 ## Student Members
 
+### Student: Xiaoming Guo
+
+![Xiaoming Guo](media/xiaoming.png){: style="width:200px; height:200px;" }
+
+#### Bio
+Xiaoming Guo is a Ph.D. student in the Department of Computer Science at the University of Alabama. His research focuses on technologies in Large Language Models, Knowledge Graphs, and smart transportation systems. With a background in software engineering from Huazhong University of Science and Technology, he has extensive experience in both academic research and industry roles. His current work includes building the infrastructure for the OKN project, where he designs and develops robust database and front-end systems. Xiaoming's expertise spans relational and graph databases, Python, and Java development.
+
+### Student: Xishi(Ethan) Zhu
+
+![Xishi(Ethan) Zhu](media/ethan.png){: style="width:200px; height:200px;" }
+
+#### Bio
+Xishi (Ethan) Zhu is a PhD student in the Department of Computer Science at the University of Alabama. His research centers on applied machine learning across fields such as behavioral science, health informatics, and smart, connected health. Currently, he is focusing on leveraging large language models (LLMs) to transform unstructured data in health and justice domains into structured knowledge graphs and expert-informed ontologies. This work aims to assist social workers and clinicians in making more informed decisions efficiently and effectively, particularly in studying health-related behaviors such as substance abuse.
+
+#### Website
+[Visit Ethan's Website](https://www.linkedin.com/in/xishi-ethan-zhu/)
+
 ### Student: Shenglin Li
 
 ![Shenglin Li](media/Shenglin.png){: style="width:200px; height:200px;" }
