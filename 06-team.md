@@ -15,10 +15,10 @@ Meet the members of our team working on the Rural Resilience Open Knowledge Grap
 ![Jiaqi Gong](media/jiaqi.jpg){: style="width:200px; height:200px;" }
 
 #### Bio
-Dr. Jiaqi Gong is ...
+Jiaqi Gong is an Associate Professor of Computer Science at The University of Alabama and the inaugural director of the Alabama Center for the Advancement of Artificial Intelligence. He is a prolific researcher with a strong focus on artificial intelligence, smart health, and wearable technologies. Jiaqi has authored numerous high-impact publications in leading journals and conferences, advancing knowledge in areas such as connected health, biomedical informatics, and human-robot collaboration. His research has received numerous awards for his innovative research in artificial intelligence, smart health, and wearable technologies, including the Best Student Paper Award at the IEEE/ACM Connected Health Conference (CHASE) and the Best Paper Award at the International Conference on Body Area Networks. He also won the Best Demonstration Award at the IEEE Wireless Health Conference and was a finalist for best paper at several other major conferences. These honors highlight his leadership in advancing AI and smart and connected health.
 
 #### Website
-[Visit Dr. Gong's Website](https://lidapeng.github.io/)
+[Visit Dr. Gong's Website](https://eng.ua.edu/eng-directory/dr-jiaqi-jackey-gong/)
 
 ### Co-PI: Dr. Hee Yun Lee
 
