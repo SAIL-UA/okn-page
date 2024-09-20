@@ -25,14 +25,30 @@ Dr. Jiaqi Gong is ...
 ![Hee Yun Lee](media/Lee.JPG){: style="width:200px; height:200px;" }
 
 #### Bio
-I am a Distinguished University Research Professor and tenured full professor at The University of Alabama School of Social Work, where I hold the Endowed Academic Chair in Social Work (Health) and serve as Co-Director of the Alabama Center for the Advancement of Artificial Intelligence. My research focuses on reducing health disparities in underserved and rural communities, driven by a commitment to translating evidence into actionable practice and policy to improve health outcomes and well-being. With a background as a behavioral health scientist and interventionist, I leverage technologies such as AI, Virtual Reality, Web Apps, and Sensors to promote health behavior change, and have developed eight technology-driven interventions that have been adopted in clinical practice and health insurance settings.
-
-My work is funded by prominent federal agencies like the NIH, NSF, HRSA, SAMHSA, and CDC, and I currently lead six federally funded projects alongside five internally funded pilot initiatives. I employ a Community-Based Participatory Research approach to ensure that interventions are co-developed with community partners, users, and policymakers for practical implementation. Key projects include developing AI-powered digital therapy for dementia caregivers and creating an AI-enabled Open Knowledge Graph Network to address health disparities and substance misuse in rural areas. My global health efforts also address health disparities among marginalized populations in Korea, India, and Vietnam.
-
-Throughout my career, I have been recognized with several prestigious awards, including the University Distinguished Research Professor title in 2024, the Blackmon-Moody Outstanding Professor Award, and the University of Alabama President’s Faculty Research Award. I have served in leadership roles, including as the inaugural Associate Dean for Research at UA and Director of Research at the University of Minnesota Twin Cities. My research lab, the HEAL Lab (Health Equity and Advancing Life through Technology), fosters the growth of undergraduate, graduate, and post-doctoral scholars, who collaborate with international partners to advance research in social work and health disparities.
+I'm a Distinguished University Research Professor and tenured full professor at The University of Alabama School of Social Work, where I hold the Endowed Academic Chair in Social Work (Health) and co-direct the Alabama Center for the Advancement of Artificial Intelligence. My research aims to reduce health disparities in underserved communities through technology-driven interventions, supported by federal funding from agencies like NIH and NSF. I emphasize Community-Based Participatory Research, with key projects including AI-powered digital therapy for dementia caregivers. My lab, the HEAL Lab, nurtures scholars in advancing social work and health disparity research, and I've received several prestigious awards, including the University Distinguished Research Professor title in 2024.
 
 #### Website
 [Visit Dr. Lee's Website](https://socialwork.ua.edu/blog/lee-hee-yun/)
+
+### Co-PI: Dr. James Geyer
+
+![James Geyer](media/James.jpg){: style="width:200px; height:200px;" }
+
+#### Bio
+Dr. James Geyer, interim director and medical director of the Institute for Rural Health Research, is a practicing physician, board-certified in Neurology, Sleep Medicine, and Neuroimaging.  He has authored over 100 journal articles and book chapters and has edited several textbooks including Clinical Sleep Disorders.  He is also a biomedical and electrical engineer. His research includes clinical research, medical devices, applied microbiomics, and AI-focused healthcare solutions.  He has served as co-PI on numerous AI grants, with the most recent being the NSF Proto-OKN artificial intelligence program. He has participated in over 50 clinical trials, served as PI on many, and has participated in trial development for several different pharmaceutical companies. He presently directs the Division of Clinical Investigation and the Clinical Experimental Pharmaceutical Initiative.
+
+#### Website
+[Visit Dr. Geyer's Website](https://jamesgeyermd.org/)
+
+### Co-PI: Dr. Xiaoyan Hong
+
+![Xiaoyan Hong](media/Hong.jpg){: style="width:200px; height:200px;" }
+
+#### Bio
+I am an Associate Professor in the Department of Computer Science at the University of Alabama. I received my Ph.D. degree in Computer Science from the University of California at Los Angeles in 2003. Earlier, I obtained my BS and MS degrees from the Department of Computer Science and Technology at Zhejiang University, P.R. China. My research interests include mobile and wireless networks (MANET, VANET, DTN), edge / fog computing, federated learning, and AI applications. Details can also be found at WiMaN Lab.
+
+#### Website
+[Visit Dr. Hong's Website](http://wiman.cs.ua.edu/mediawiki/index.php/Main_Page)
 
 ### Senior Personnel: Dr. Dapeng Li
 
