@@ -30,6 +30,18 @@ I'm a Distinguished University Research Professor and tenured full professor at 
 #### Website
 [Visit Dr. Lee's Website](https://socialwork.ua.edu/blog/lee-hee-yun/)
 
+### Co-PI: Dr. Matthew Hudnall
+
+![Matthew Hudnall](media/hudnall.jpg){: style="width:200px; height:200px;" }
+
+#### Bio
+Matthew Hudnall has worked for the past 16 years as the deputy director for the center of advanced public safety at the University of Alabama. He is now an assistant director in the Culverhouse Institute of Business Analytics.
+
+Dr. Hudnall’s research focuses on large-scale government decision support systems, cyber security of state and federal government systems and integration of cybersecurity from project inception through development and into production, as well as the development of new and innovative data analytics approaches to legacy data collection systems.
+
+#### Website
+[Visit Dr. Hudnall's Website](https://culverhouse.ua.edu/people/matthew-hudnall/)
+
 ### Co-PI: Dr. James Geyer
 
 ![James Geyer](media/James.jpg){: style="width:200px; height:200px;" }
@@ -96,7 +108,7 @@ Currently a PhD student at the University of Alabama studying large language mod
 Shenglin (Shane) Li received the PhD degree in Mechanical Engineering at The University of Alabama. His research focuses on advanced applications of AI, including multi-camera vehicle tracking, sensor fusion, and computer vision on NVIDIA hardware. He has extensive experience with machine learning algorithms such as YOLO and DEEPSORT, and his work has resulted in significant improvements in vehicle localization and tracking. Currently, he is working as a post-doctoral researcher at the SAIL Lab, where he is modeling data storytelling as a combinatorial search problem to enhance scientific creativity.
 
 #### Website
-[Visit Shenglin's Website](www.linkedin.com/in/shenglin-li)
+[Visit Shenglin's Website](www.linkedin.com/in/shenglin-li/)
 
 ### Student: Andres Ramirez Molina
 
