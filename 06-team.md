@@ -93,13 +93,24 @@ Xishi (Ethan) Zhu is a PhD student in the Department of Computer Science at the 
 
 ### Student: Ryan Henry
 
-![Ryan Henry](media//ryan.jpg){: style="width:200px; height:200px;" }
+![Ryan Henry](media/ryan.jpg){: style="width:200px; height:200px;" }
 
 #### Bio
 Currently a PhD student at the University of Alabama studying large language models and knowledge graphs. Has a Master’s Degree in Electrical Engineering from the University of Florida. Worked as a Systems Engineer for 5 years at Lockheed Martin.
 
 #### Website
 [Visit Ryan's Website](https://www.linkedin.com/in/ryan-henry-6b92ba127)
+
+### Student: Emily Jackson
+
+![Emily Jackson](media/emmy.png){: style="width:200px; height:200px;" }
+
+#### Bio
+Emily is a first-year PhD student in the Department of Computer Science at the University of Alabama. She previously earned her Bachelor's Degree in Computer Science from Kennesaw State University and received the "Best Paper" award at ACMSE '24. Emily's current work is focused on integrating knowledge graphs with large language models(LLMs) in pursuit of improved knowledge retrieval and output validation, among other exploratory improvements. 
+
+#### Website
+[Visit Emily's Website](https://www.linkedin.com/in/emily-jackson-675028285/)
+
 ### Student: Shenglin Li
 
 ![Shenglin Li](media/Shenglin.png){: style="width:200px; height:200px;" }
