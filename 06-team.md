@@ -109,7 +109,7 @@ Currently a PhD student at the University of Alabama studying large language mod
 Emily is a first-year PhD student in the Department of Computer Science at the University of Alabama. She previously earned her Bachelor's Degree in Computer Science from Kennesaw State University and received the "Best Paper" award at ACMSE '24. Emily's current work is focused on integrating knowledge graphs with large language models(LLMs) in pursuit of improved knowledge retrieval and output validation, among other exploratory improvements. 
 
 #### Website
-[Visit Emily's Website](https://www.linkedin.com/in/emily-jackson-675028285/)
+[Visit Emily's Website](https://www.linkedin.com/in/emily-jackson-675028285)
 
 ### Student: Shenglin Li
 
@@ -119,7 +119,7 @@ Emily is a first-year PhD student in the Department of Computer Science at the U
 Shenglin (Shane) Li received the PhD degree in Mechanical Engineering at The University of Alabama. His research focuses on advanced applications of AI, including multi-camera vehicle tracking, sensor fusion, and computer vision on NVIDIA hardware. He has extensive experience with machine learning algorithms such as YOLO and DEEPSORT, and his work has resulted in significant improvements in vehicle localization and tracking. Currently, he is working as a post-doctoral researcher at the SAIL Lab, where he is modeling data storytelling as a combinatorial search problem to enhance scientific creativity.
 
 #### Website
-[Visit Shenglin's Website](www.linkedin.com/in/shenglin-li/)
+[Visit Shenglin's Website](www.linkedin.com/in/shenglin-li)
 
 ### Student: Andres Ramirez Molina
 
