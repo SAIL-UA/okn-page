@@ -119,7 +119,7 @@ Emily is a first-year PhD student in the Department of Computer Science at the U
 Shenglin (Shane) Li received the PhD degree in Mechanical Engineering at The University of Alabama. His research focuses on advanced applications of AI, including multi-camera vehicle tracking, sensor fusion, and computer vision on NVIDIA hardware. He has extensive experience with machine learning algorithms such as YOLO and DEEPSORT, and his work has resulted in significant improvements in vehicle localization and tracking. Currently, he is working as a post-doctoral researcher at the SAIL Lab, where he is modeling data storytelling as a combinatorial search problem to enhance scientific creativity.
 
 #### Website
-[Visit Shenglin's Website](www.linkedin.com/in/shenglin-li)
+[Visit Shenglin's Website](https://www.linkedin.com/in/shenglin-li)
 
 ### Student: Andres Ramirez Molina
 
