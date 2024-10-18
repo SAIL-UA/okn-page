@@ -1,5 +1,5 @@
 title: Open Knowledge Graph - Rural Ontology
-description: This is the documentation site for my project.
+description: This is the documentation site for the rural okn project.
 url: "https://sail-ua.github.io/okn-page/"
 remote_theme: https://github.com/JV-conseil/jekyll-theme-read-the-docs
 
@@ -23,3 +23,7 @@ nav:
   - title: "Meet Our Team"
     url: "/team"
     nav_order: 6
+  - title: "Dissemination"
+    url: "/dissemination"
+    nav_order: 7
+
