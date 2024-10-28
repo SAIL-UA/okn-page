@@ -25,4 +25,7 @@ studies of rural resilience to public health and environmental crises.
 
 ![Project overview diagram](media/overview1.png)
 
+## Alpha Version Demo
+[RuralKG Web Service](http://52.170.155.134:8050/)
+
 
