@@ -25,7 +25,18 @@ studies of rural resilience to public health and environmental crises.
 
 ![Project overview diagram](media/overview1.png)
 
+
 ## Alpha Version Demo
-[RuralKG Web Service](http://52.170.155.134:8050/)
+
+An alpha version of the RuralKG Web Service is available at [RuralKG Web Service](http://52.170.155.134:8050/).
+
+In this version, you can explore:
+- **Knowledge queries** for dataset background information,
+- **Data queries** on substances and substance-related data, and
+- **Service queries** for Mental Health Treatment Facilities provided by SAMHSA.
+
+Test cases can be accessed at [RuralKG Test Cases](data/test_case.csv). Note that some queries may appear unusual as they are designed to test the boundaries of the system’s capabilities.
+
+
 
 
