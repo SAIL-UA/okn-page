@@ -6,4 +6,4 @@ nav_order: 7
 
 # Project Flyer
 
-![Project flyer](media/Flyer.png)
+![Project flyer](media/Flyer2.png)
