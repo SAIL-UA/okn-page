@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Our Team"
-nav_order: 6
+nav_order: 8
 ---
 
 # Meet Our Team
