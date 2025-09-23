@@ -17,21 +17,6 @@ Our modeling approach is to reuse established, standard vocabularies where possi
 
 These terms are adopted from widely used, external ontologies to ensure our data is interoperable and follows FAIR principles.
 
-### Schema.org (`schema`)
-A general-purpose vocabulary for structured data. We use it primarily for geographic and organizational concepts.
-* `schema:City`
-* `schema:GeoCoordinates`
-* `schema:Place`
-* `schema:PostalAddress`
-* `schema:address`
-* `schema:addressLocality`
-* `schema:addressRegion`
-* `schema:geo`
-* `schema:latitude`
-* `schema:location`
-* `schema:longitude`
-* `schema:postalCode`
-
 ### Dublin Core (`dcterms`)
 Used for metadata describing the RuralKG ontology itself.
 * `dcterms:created`
@@ -48,12 +33,6 @@ Core vocabularies for defining the fundamental structure and semantics of the kn
 * `rdfs:comment`
 * `rdfs:isDefinedBy`
 * `owl:Ontology`
-* `owl:imports`
-* `owl:sameAs`
-
-### Friend of a Friend (`foaf`)
-Used for social networking concepts, from which we adopt the property for phone numbers.
-* `foaf:phone`
 
 ---
 ## RuralKG Vocabularies (Custom Terms)
@@ -73,7 +52,11 @@ Terms related to geopolitical entities like states, counties, and cities. These 
 * `adminArea:abbreviation` - The standard two-letter abbreviation for a state (e.g., "AL").
 * `adminArea:containsPlace` - An object property linking a larger administrative area (like a State) to a smaller one it contains (like a County).
 * `adminArea:fips` - A literal property for the Federal Information Processing Standard (FIPS) code that uniquely identifies states and counties.
+* `adminArea:latitude` - The geographic latitude of a place.
+* `adminArea:longitude` - The geographic longitude of a place.
+* `adminArea:name` - The full name of the administrative area (e.g., "Alabama").
 * `adminArea:primaryCounty` - An object property linking a `City` instance to its primary `County` instance.
+* `adminArea:ranking` - A ranking value for a city.
 
 ### Settlement Type (`settlement`)
 Terms for classifying areas based on demographic data, particularly the Rural-Urban Continuum Codes (RUCC) from the USDA.
@@ -86,6 +69,7 @@ Terms for classifying areas based on demographic data, particularly the Rural-Ur
 **Properties**
 * `settlement:censusCounty` - Links a `CountyStatus` entity to the `County` it describes.
 * `settlement:code` - The specific RUCC code value (e.g., "1", "9").
+* `settlement:description` - The textual description for an RUCC code.
 * `settlement:hasRUCC` - Links a `CountyStatus` entity to its assigned `RUCC` classification instance.
 * `settlement:population` - The population of a county for a given year.
 * `settlement:year` - The census or reporting year for the demographic data.
@@ -101,6 +85,9 @@ Describes the types of mental health services available, based on the National D
 **Properties**
 * `mhs:code` - The official code for a service or service category.
 * `mhs:containsService` - Links a `MentalHealthServiceCategory` to a more specific `MentalHealthService` that falls under it.
+* `mhs:description` - A description of a specific mental health service.
+* `mhs:name` - The name of the service or category.
+* `mhs:year` - The reporting year for the service data.
 
 ### Treatment Provider (`treatment`)
 Represents the facilities and organizations that provide mental health services.
@@ -109,7 +96,13 @@ Represents the facilities and organizations that provide mental health services.
 * `treatment:TreatmentProvider` - An entity, such as a clinic or hospital, that offers treatment.
 
 **Properties**
+* `treatment:address` - The full street address of the provider.
+* `treatment:alias` - A secondary or alternative name for the provider.
+* `treatment:inCity` - Links a provider to its `City` instance.
+* `treatment:name` - The primary name of the provider.
+* `treatment:phone` - The provider's phone number.
 * `treatment:providesService` - **Key linking property.** Connects a `TreatmentProvider` to a `MentalHealthService` that it offers.
+* `treatment:zipcode` - The provider's postal ZIP code.
 
 ### Substance Abuse (`substanceabuse`)
 Models substances and incident types sourced from the National Survey on Drug Use and Health (NSDUH).
@@ -120,8 +113,12 @@ Models substances and incident types sourced from the National Survey on Drug Us
 * `substanceabuse:SubstanceRelatedIncident` - A type of event or behavior related to substance use.
 
 **Properties**
-* `substanceabuse:sourceDataset` - The source of the data (e.g., "NSDUH").
+* `substanceabuse:code` - An official code associated with a substance.
+* `substanceabuse:description` - A description of a substance.
 * `substanceabuse:identifier` - An external identifier, such as a Wikidata ID, used for linking to other knowledge bases.
+* `substanceabuse:name` - The name of the substance or incident type.
+* `substanceabuse:sourceDataset` - The source of the data (e.g., "NSDUH").
+* `substanceabuse:year` - The reporting year for the data.
 
 ### Justice (`justice`)
 Represents crime data concepts extracted from the National Incident-Based Reporting System (NIBRS). This vocabulary is extensive, structured into segments and their corresponding data elements.
