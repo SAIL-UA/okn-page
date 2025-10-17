@@ -28,7 +28,7 @@ studies of rural resilience to public health and environmental crises.
 
 ## Alpha Version Demo
 
-An alpha version of the RuralKG Web Service is available at [RuralKG Web Service](http://52.170.155.134:8050/).
+An alpha version of the RuralKG Web Service is available at [RuralKG Web Service](http://20.55.70.167/).
 
 In this version, you can explore:
 - **Knowledge queries** for dataset background information,
