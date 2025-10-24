@@ -23,10 +23,13 @@ nav:
   - title: "RuralKG Terms"
     url: "/ruralkg-terms"
     nav_order: 6
+  - title: "API"
+    url: "/api"
+    nav_order: 7
   - title: "Meet Our Team"
     url: "/team"
-    nav_order: 7
+    nav_order: 8
   - title: "Dissemination"
     url: "/dissemination"
-    nav_order: 8
+    nav_order: 9
 
