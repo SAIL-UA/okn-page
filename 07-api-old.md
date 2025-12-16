@@ -5,8 +5,7 @@ nav_order: 7
 ---
 
 ## Overview
-
-_by Fabricio Gutierrez Juarez (fjgutierrez@ua.edu) • last updated December 12, 2025_
+*by Fabricio Gutierrez Juarez (fjgutierrez@ua.edu) • last updated October 24, 2025*
 
 The RuralKG API Backend provides an intelligent query processing system that automatically classifies and routes questions to the most appropriate service. This comprehensive documentation covers all available endpoints, their message formats, and practical use cases for OKN Justice teams.
 
@@ -18,24 +17,7 @@ http://52.170.155.134:8001/
 
 ## Authentication
 
-**All API endpoints require an API key** (except `/health`, `/docs`, `/openapi.json`, and `/`).
-
-Include your API key in every request using the `X-API-Key` header:
-
-```bash
-X-API-Key: your-api-key-here
-```
-
-**Getting an API Key:**
-
-- Contact **fjgutierrez@ua.edu** to request an API key for your team
-- Provide: Team name, Organization/Department, Contact email
-- You'll receive a unique API key that looks like: `ak_prod_a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6`
-
-**Rate Limits:**
-
-- Default: 60 requests/minute, 1,000 requests/hour, 10,000 requests/day
-- Custom limits may be configured per team
+Currently no authentication required. (Add authentication details if applicable)
 
 ---
 
@@ -82,7 +64,6 @@ X-API-Key: your-api-key-here
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "question": "What percentage of adults have depression?",
@@ -95,7 +76,6 @@ curl -X POST "http://52.170.155.134:8001/query" \
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "question": "What are the symptoms of anxiety disorders?",
@@ -107,7 +87,6 @@ curl -X POST "http://52.170.155.134:8001/query" \
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "question": "Find mental health services near me in Los Angeles",
@@ -179,7 +158,6 @@ curl -X POST "http://52.170.155.134:8001/query" \
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/preprocess" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"question": "What is the depression rate in California?"}'
 ```
@@ -236,7 +214,6 @@ curl -X POST "http://52.170.155.134:8001/preprocess" \
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/analyze" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "question": "How many people use marijuana in the last month?",
@@ -301,7 +278,6 @@ curl -X POST "http://52.170.155.134:8001/analyze" \
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/knowledge" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "question": "What are the symptoms of anxiety disorders?",
@@ -351,7 +327,6 @@ curl -X POST "http://52.170.155.134:8001/knowledge" \
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/search" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "question": "Find depression treatment in Los Angeles",
@@ -381,8 +356,7 @@ curl -X POST "http://52.170.155.134:8001/search" \
 **Example:**
 
 ```bash
-curl -N "http://52.170.155.134:8001/classify/stream?message=Find%20mental%20health%20services&top_k=5&use_synthesis=true" \
-  -H "X-API-Key: YOUR_API_KEY"
+curl -N "http://52.170.155.134:8001/classify/stream?message=Find%20mental%20health%20services&top_k=5&use_synthesis=true"
 ```
 
 ---
@@ -423,8 +397,7 @@ curl -N "http://52.170.155.134:8001/classify/stream?message=Find%20mental%20heal
 **Example:**
 
 ```bash
-curl "http://52.170.155.134:8001/api/providers/123" \
-  -H "X-API-Key: YOUR_API_KEY"
+curl "http://52.170.155.134:8001/api/providers/123"
 ```
 
 ### 9. `/api/places/details` - Google Places Integration
@@ -454,8 +427,7 @@ curl "http://52.170.155.134:8001/api/providers/123" \
 **Example:**
 
 ```bash
-curl "http://52.170.155.134:8001/api/places/details?name=Mental%20Health%20Center&lat=34.0522&lng=-118.2437" \
-  -H "X-API-Key: YOUR_API_KEY"
+curl "http://52.170.155.134:8001/api/places/details?name=Mental%20Health%20Center&lat=34.0522&lng=-118.2437"
 ```
 
 ### 10. `/api/kg/*` - Knowledge Graph Endpoints
@@ -470,8 +442,7 @@ curl "http://52.170.155.134:8001/api/places/details?name=Mental%20Health%20Cente
 **Example:**
 
 ```bash
-curl "http://52.170.155.134:8001/api/kg/all" \
-  -H "X-API-Key: YOUR_API_KEY"
+curl "http://52.170.155.134:8001/api/kg/all"
 ```
 
 ---
@@ -547,9 +518,7 @@ curl "http://52.170.155.134:8001/api/kg/all" \
 ### Collection Setup
 
 1. **Base URL:** `http://52.170.155.134:8001`
-2. **Headers:**
-   - `Content-Type: application/json`
-   - `X-API-Key: YOUR_API_KEY` (required for all endpoints except `/health`, `/docs`, `/`)
+2. **Headers:** `Content-Type: application/json`
 
 ### Request Examples
 
@@ -626,171 +595,89 @@ GET /api/places/details?name=Mental%20Health%20Center&lat=34.0522&lng=-118.2437
 
 ---
 
-## 🎯 Real-World Use Cases for OKN Teams
+## 🎯 Real-World Use Cases for OKN Justice Teams
 
-### Use Case 1: Finding Local Mental Health Services
+### Use Case 1: Data Analysis for Policy Research
 
-**Question:** What mental health services are available near Tuscaloosa?
+**Scenario:** Justice team needs to analyze mental health data for policy recommendations.
 
 **API Call:**
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "question": "What mental health services are available near Tuscaloosa?",
+    "question": "What is the prevalence of substance use disorders among adults in 2022?",
+    "top_k": 10,
+    "use_synthesis": true
+  }'
+```
+
+**Expected Response:** Detailed statistical data with percentages, frequencies, and synthesized analysis.
+
+### Use Case 2: Knowledge Base Queries
+
+**Scenario:** Team needs definitions and explanations of mental health concepts.
+
+**API Call:**
+
+```bash
+curl -X POST "http://52.170.155.134:8001/query" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "question": "What are the diagnostic criteria for PTSD?",
+    "use_synthesis": true
+  }'
+```
+
+**Expected Response:** Comprehensive knowledge base results with definitions and explanations.
+
+### Use Case 3: Service Locator for Justice-Involved Individuals
+
+**Scenario:** Finding mental health services for justice-involved individuals.
+
+**API Call:**
+
+```bash
+curl -X POST "http://52.170.155.134:8001/query" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "question": "Find mental health services for justice-involved individuals in Los Angeles County",
     "top_k": 5
   }'
 ```
 
-**Expected Response:** List of mental health service providers in the Tuscaloosa area with contact information, addresses, and service details.
+**Expected Response:** List of relevant service providers with contact information and details.
 
----
+### Use Case 4: Research Data Extraction
 
-### Use Case 2: Emergency Medical Assistance for Substance Use
-
-**Question:** I consumed marijuana and I'm feeling unwell — where can I get medical assistance in Miami?
+**Scenario:** Extracting specific data points for research reports.
 
 **API Call:**
 
 ```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
+curl -X POST "http://52.170.155.134:8001/analyze" \
   -H "Content-Type: application/json" \
   -d '{
-    "question": "I consumed marijuana and I'\''m feeling unwell — where can I get medical assistance in Miami?",
+    "question": "What is the rate of co-occurring mental health and substance use disorders?",
+    "include_synthesis": true,
     "top_k": 5
   }'
 ```
 
-**Expected Response:** List of medical facilities and treatment providers in Miami that can assist with substance-related medical emergencies.
+**Expected Response:** Specific variable data with answer options, frequencies, and percentages.
 
----
+### Use Case 5: Provider Information Lookup
 
-### Use Case 3: Data Query on Driving Under the Influence
-
-**Question:** Is there any data about driving under the influence of illegal substances?
+**Scenario:** Getting detailed information about specific treatment providers.
 
 **API Call:**
 
 ```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "Is there any data about driving under the influence of illegal substances?",
-    "top_k": 10,
-    "use_synthesis": true
-  }'
+curl "http://52.170.155.134:8001/api/providers/123"
 ```
 
-**Expected Response:** Statistical data from NSDUH or other datasets showing rates, frequencies, and percentages related to driving under the influence of illegal substances.
-
----
-
-### Use Case 4: Comparative Analysis of Treatment Resources
-
-**Question:** Describe the treatment resources imbalance situation between San Bernardino county and other county like Jefferson, AL
-
-**API Call:**
-
-```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "Describe the treatment resources imbalance situation between San Bernardino county and other county like Jefferson, AL",
-    "top_k": 10,
-    "use_synthesis": true
-  }'
-```
-
-**Expected Response:** Comparative analysis of treatment resources, provider availability, and service distribution between San Bernardino County and Jefferson County, AL.
-
----
-
-### Use Case 5: Mental Health Resource Allocation Analysis
-
-**Question:** What does the data suggest about mental health resource allocation between New York city and Jefferson County, AL?
-
-**API Call:**
-
-```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "What does the data suggest about mental health resource allocation between New York city and Jefferson County, AL?",
-    "top_k": 10,
-    "use_synthesis": true
-  }'
-```
-
-**Expected Response:** Data-driven analysis comparing mental health resource allocation, provider density, and service availability between New York City and Jefferson County, AL.
-
----
-
-### Use Case 6: Trend Analysis of Marijuana Use
-
-**Question:** What is current trends of marijuana used in America?
-
-**API Call:**
-
-```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "What is current trends of marijuana used in America?",
-    "top_k": 10,
-    "use_synthesis": true
-  }'
-```
-
-**Expected Response:** Statistical trends and patterns of marijuana use in America, including prevalence rates, demographic breakdowns, and temporal changes from NSDUH data.
-
----
-
-### Use Case 7: Understanding NSDUH Methodology
-
-**Question:** How is the usability criteria in the NSDUH determined?
-
-**API Call:**
-
-```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "How is the usability criteria in the NSDUH determined?",
-    "top_k": 5,
-    "use_synthesis": true
-  }'
-```
-
-**Expected Response:** Knowledge base information explaining NSDUH methodology, usability criteria determination, and data collection processes.
-
----
-
-### Use Case 8: Data Privacy and Protection Information
-
-**Question:** What steps are taken to protect individual identities before data is shared or published?
-
-**API Call:**
-
-```bash
-curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "What steps are taken to protect individual identities before data is shared or published?",
-    "top_k": 5,
-    "use_synthesis": true
-  }'
-```
-
-**Expected Response:** Information about data privacy protocols, anonymization techniques, and identity protection measures used in NSDUH.
+**Expected Response:** Complete provider details including contact information, address, and intake procedures.
 
 ---
 
@@ -833,25 +720,11 @@ curl -X POST "http://52.170.155.134:8001/query" \
 }
 ```
 
-#### 5. API Key Missing or Invalid
+#### 5. API Key Missing
 
 ```json
 {
-  "detail": "API key required. Please include 'X-API-Key' header with your API key."
-}
-```
-
-```json
-{
-  "detail": "Authentication failed: Invalid API key"
-}
-```
-
-#### 6. Rate Limit Exceeded
-
-```json
-{
-  "detail": "Rate limit exceeded. Please try again later."
+  "detail": "Google Places API key not configured"
 }
 ```
 
@@ -859,21 +732,14 @@ curl -X POST "http://52.170.155.134:8001/query" \
 
 ## 📊 Rate Limits
 
-**Default rate limits** (may vary per team):
-
 - **Requests per minute:** 60
-- **Requests per hour:** 1,000
-- **Requests per day:** 10,000
-
-Custom rate limits can be configured per team. Contact fjgutierrez@ua.edu to request higher limits.
+- **Requests per hour:** 1000
 
 Rate limit headers are included in responses:
 
 - `X-RateLimit-Limit`: Maximum requests allowed
 - `X-RateLimit-Remaining`: Remaining requests in current window
 - `X-RateLimit-Reset`: Time when the rate limit resets
-
-If you exceed limits, you'll receive a `429 Too Many Requests` response.
 
 ---
 
@@ -885,26 +751,21 @@ If you exceed limits, you'll receive a `429 Too Many Requests` response.
 curl "http://52.170.155.134:8001/health"
 ```
 
-### 2. Get Your API Key
-
-Contact **fjgutierrez@ua.edu** to request an API key for your team.
-
-### 3. Try Main Query Endpoint
+### 2. Try Main Query Endpoint
 
 ```bash
 curl -X POST "http://52.170.155.134:8001/query" \
-  -H "X-API-Key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"question": "What is depression?"}'
 ```
 
-### 4. Explore Available Endpoints
+### 3. Explore Available Endpoints
 
 ```bash
 curl "http://52.170.155.134:8001/"
 ```
 
-### 5. View Interactive Documentation
+### 4. View Interactive Documentation
 
 Open: `http://52.170.155.134:8001/docs`
 
@@ -914,28 +775,13 @@ Open: `http://52.170.155.134:8001/docs`
 
 For technical support or questions about the API:
 
-- **API Key Requests:** fjgutierrez@ua.edu
-- **Technical Issues:** fjgutierrez@ua.edu
 - **Service Status:** Check `/health` endpoint
-- **Interactive Documentation:** Available at `/docs`
+- **Documentation:** Available at `/docs`
 - **Root Information:** Available at `/`
 
 ---
 
 ## 🔄 Changelog
-
-### Version 1.1.0 - API Key Authentication
-
-**Major Feature: API Key Authentication System**
-
-- **API Key Authentication** - All endpoints now require API key authentication via `X-API-Key` header
-- **Per-Team Rate Limiting** - Custom rate limits configurable per team (default: 60/min, 1,000/hour, 10,000/day)
-- **Usage Tracking** - Automatic tracking of API usage per team
-- **Key Management** - Admin endpoints for creating, updating, and managing API keys
-- **Secure Key Storage** - API keys are hashed (SHA-256) before storage
-- **Key Expiration** - Support for time-limited API keys
-- **Admin Authentication** - Admin endpoints protected with separate admin API key
-- **Public Endpoints** - `/health`, `/docs`, `/openapi.json`, and `/` remain public (no API key required)
 
 ### Version 1.0.0
 
